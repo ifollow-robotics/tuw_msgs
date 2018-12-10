@@ -49,7 +49,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 ## Generate messages in the 'msg' folder
 add_message_files(
-  FILES 
+  FILES
   RobotGoals.msg
   RobotGoalsArray.msg
   RoutePrecondition.msg
@@ -86,6 +86,7 @@ generate_messages(
    DEPENDENCIES
    geometry_msgs
    nav_msgs
+   std_msgs
 )
 
 ################################################
@@ -190,7 +191,7 @@ include_directories(
 install(DIRECTORY include/${PROJECT_NAME}/
   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
   FILES_MATCHING PATTERN "*.h"
-  PATTERN ".svn" EXCLUDE 
+  PATTERN ".svn" EXCLUDE
 )
 
 ## Mark other files for installation (e.g. launch and bag files, etc.)
