@@ -30,4 +30,3 @@ int32 GOOD_NA = -2                  # undefined good
 
 # shape
 int32 SHAPE_CIRCLE = 0                 # robot is in shape of a circle    ShapeVars
-
