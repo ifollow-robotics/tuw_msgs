@@ -72,6 +72,7 @@ add_service_files(
 FILES
   StationManagerControlProtocol.srv
   StationManagerStationProtocol.srv
+  RegisterRobot.srv
 )
 
 ## Generate actions in the 'action' folder
